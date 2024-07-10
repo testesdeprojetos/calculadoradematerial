@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Materiais</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    
+    <h1>Calculadora de Materiais</h1>
+
+    <h3>Quantos dias a viagem vai durar?
+        <input type="number" id="qntdDias">
+        <button onclick="gerarTabela()">Gerar</button>
+    </h3>
+
+    <table>
+        <tr>
+            <th>MATERIAL</th>
+            <th>QNTD. POR DIA</th>
+            <th>TOTAL CALCULADO</th>
+        </tr>
+        <tr>
+            <td>Gaze</td>
+            <td><input type="number" id="qntdGaze"></td>
+            <td><output id="qntdGazeOutput">0</output></td>
+        </tr>
+        <tr>
+            <td>Sonda</td>
+            <td><input type="number" id="qntdSonda"></td>
+            <td><output id="qntdSondaOutput">0</output></td>
+        </tr>
+        <tr>
+            <td>Saco Coletor</td>
+            <td><input type="number" id="qntdSacoColetor"></td>
+            <td><output id="qntdSacoColetorOutput">0</output></td>
+        </tr>
+    </table>
+
+    <script src="./script.js"></script>
+</body>
+</html>
